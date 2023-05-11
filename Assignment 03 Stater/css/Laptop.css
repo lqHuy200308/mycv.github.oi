@@ -1,0 +1,83 @@
+/* BORDER TRONG CHUNG TRI VA GIAI THUONG */
+@media screen and (min-width: 768px) {
+  .borderbottom {
+    border-bottom: solid 1px #d6c08d;
+  }
+  .borderleft {
+    border-left: solid 1px #d6c08d;
+  }
+}
+/* ANH DAI DIEN */
+#avatar {
+  width: 170px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid white 5px;
+}
+
+/* ANH BIA */
+.bg-photo {
+  width: 1320px;
+}
+
+li > span {
+  font-weight: bold;
+}
+
+/* LEVEL */
+.level > spam {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/* DU AN */
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  vertical-align: top;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(190, 190, 190);
+  color: rgb(131, 125, 125);
+}
+
+table {
+  border-collapse: collapse;
+  height: 200px;
+}
+
+th:first-child {
+  width: 80px;
+}
+
+.product-border {
+  border: 1px solid rgb(190, 190, 190);
+  border-bottom: none;
+  padding: 10px 0 10px 20px;
+}
+#project h1 {
+  margin: 0 0 20px 103px;
+  padding: 0;
+}
+
+/* FOOTER */
+.footer {
+  background-color: rgba(211, 208, 208, 0.666);
+}
+
+/* JS */
+.info,
+.view-more,
+.less-more {
+  display: none;
+}
+
+.section-content {
+  display: none;
+}
